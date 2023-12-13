@@ -1,4 +1,4 @@
-//Listing 4: Setup des neuronalen Netzes und der Datenquelle
+//Listing 2: Setup des neuronalen Netzes und der Datenquelle
 
 let nn;
 let targetLabel = 'A';
@@ -19,7 +19,7 @@ function setup() {
   background(220);
 }
 
-// Listing 5: Funktionen zum Steuern des neuronalen Netzes
+// Listing 3: Funktionen zum Steuern des neuronalen Netzes
 
 function keyPressed(){
   if(key == 't'){
@@ -61,7 +61,7 @@ function mousePressed(){
   }
 }
 
-// Listing 6: Modelltraining und Ergebnisse
+// Listing 4: Modelltraining und Ergebnisse
 
 function whileTraining(epoch, loss){
   console.log(epoch);
